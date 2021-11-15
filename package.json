@@ -1,0 +1,19 @@
+{
+  "name": "crypto-api",
+  "version": "1.0.0",
+  "description": "Simple REST API Data Encryption & Decryption using Crypto",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "author": "Pichid Detson",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.5",
+    "winston-request-logger": "^1.0.7"
+  }
+}

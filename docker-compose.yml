@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  api:
+    build:
+      context: ./
+    ports:
+      - 7000:7000
+    volumes:
+      - ./logs:/usr/src/app/logs
+    environment:
+      - ALGORITHM=aes-256-cbc
+      - INIT_VECTOR=vT1wOY62Ja3bOe1a
+      - SECURITY_KEY=00K3Q1g2AOB8An0toi4xFyTScMsf7aWi
+    restart: always
